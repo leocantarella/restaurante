@@ -1,9 +1,9 @@
 Restaurante - API em Spring Boot
 
-[Java Badge] ![Java](https://img.shields.io/badge/Java-17+-blue)
-[Spring Boot Badge] ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.0-brightgreen)
-[H2 Database Badge] ![H2 Database](https://img.shields.io/badge/H2-Database-orange)
-[License Badge] ![License](https://img.shields.io/badge/License-MIT-green)
+ ![Java](https://img.shields.io/badge/Java-17+-blue)
+ ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.0-brightgreen)
+ ![H2 Database](https://img.shields.io/badge/H2-Database-orange)
+ ![License](https://img.shields.io/badge/License-MIT-green)
 
 API simples de gerenciamento de Itens e Pedidos para um restaurante, utilizando Spring Boot, JPA e H2 em memória.
 
@@ -58,8 +58,4 @@ Testando a API:
 Observações:
 - Todos os endpoints retornam e aceitam JSON.
 - O banco H2 é em memória por padrão, então os dados se perdem ao reiniciar.
-- Para persistência, use jdbc:h2:file:./data/restauranteDB.
 - Recomenda-se testar com Postman ou curl.
-
-Licença:
-MIT License
